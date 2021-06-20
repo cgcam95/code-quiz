@@ -1,0 +1,91 @@
+header {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+#main {
+  text-align: center;
+  margin: 12px;
+  padding: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+#intro {
+  margin: 12px;
+  padding: 15px;
+}
+
+#intro h1 {
+  color: green;
+}
+
+#intro p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#start-button {
+  font-weight: 500;
+  background-color: honeydew;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+#question-container {
+  text-align: left;
+  width: 80%;
+  max-width: 80%;
+  background-color: rgb(219, 208, 208);
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: 0px 0px 8px 4px;
+}
+
+#question {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#btn {
+  background-color: darkcyan;
+  border-radius: 15px;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  margin: 6px;
+}
+
+.button-set {
+    display: inline-grid;
+}
+
+#game-end h2 {
+    color: green;
+}
+
+.submit {
+    color:black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header p {
+margin-right: 15px;
+}
+
+#linkscore {
+    margin-left: 15px;
+}

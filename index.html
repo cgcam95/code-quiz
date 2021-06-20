@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>True or False Game</title>
+    <link rel="stylesheet" href="./assets/script.js" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./highscore.html" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" id="linkscore">View High Score</a>
+      <div id="time-container" class="timer">
+        <p id="countdown">Timer</p>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="intro">
+        <h1>JavaScript Challenge Quiz</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+          voluptates fugiat inventore temporibus quibusdam dolorum nam expedita
+          necessitatibus, deleniti ratione deserunt voluptatem impedit dolorem
+          distinctio amet dolore obcaecati sed! Itaque!
+        </p>
+        <button id="start-button">Start Game</button>
+      </div>
+
+      <div id="question-container" class="hide">
+        <div id="question"> Question </div>
+          <div id="answer-button" class="button-set">
+            <button id="btn">Answer 1</button>
+            <button id="btn">Answer 2</button>
+            <button id="btn">Answer 3</button>
+            <button id="btn">Answer 3</button>
+          </div>
+          <hr/>
+          <div id="popup" class="hide">
+            <h2>Correct!</h2>
+          </div>
+          <hr/>
+        </div>
+        
+      <div id="game-end" class="hide">
+        <h2>End of Game!</h2>
+        <h3 id="final-score-info">This is your score</h3>
+        <form>
+          <label for="name">Enter Name:</label>
+          <input type="text"
+          id="player-name"
+          placeholder="Enter Name">
+          <button id="submit-button" class="submit">submit</button>
+        </form>
+      </div>
+
+
+
+    </main>
+  </body>
+</html>

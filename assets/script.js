@@ -1,0 +1,1 @@
+var startGameBtn = document.
