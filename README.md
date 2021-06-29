@@ -9,6 +9,7 @@ A simple Quiz to take for fun
 * JavaScript
 
 ## Website
+https://cgcam95.github.io/code-quiz/
 
 ## Contribution
 Made with ❤️ by Camil Grabowski
